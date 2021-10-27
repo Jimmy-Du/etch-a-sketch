@@ -4,6 +4,7 @@
 
 body {
   text-align: center;
+  background-color: #BFDBFE;
 }
 
 .grid {
@@ -11,6 +12,7 @@ body {
   width: 500px;
   height: 500px;
   margin: auto;
+  background-color: white;
 }
 
 .options {
