@@ -1,13 +1,44 @@
 * {
-  border-style: solid;
-  border-width: 1px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  text-align: center;
 }
 
 .grid {
   display: grid;
+  width: 500px;
+  height: 500px;
+  margin: auto;
 }
 
-.grid div {
-  padding: 20px;
+.options {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.reset-btn {
+  background-color: tomato;
+}
+
+.line-btn {
+  background-color: #9b42f5;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+button:hover {
+  background-color: #D1D5DB;
+}
+
+.border {
+  border: solid;
+  border-width: 1px;
 }
